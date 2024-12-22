@@ -5,9 +5,9 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ "main", "dev" ]
+    branches: [ "main", "actions" ]
   pull_request:
-    branches: [ "main", "dev" ]
+    branches: [ "main", "actions" ]
   workflow_dispatch: # Manual trigger for the workflow
 
 jobs:
